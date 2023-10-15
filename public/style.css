@@ -20,6 +20,7 @@ body{
     font-size: 1.5rem;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
 }
 
 .tools-cont{
@@ -32,6 +33,7 @@ body{
     top: 2rem;
     left: 25vw;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
 }
 
 .tools-cont > *{
@@ -63,12 +65,14 @@ body{
     left: 25vw;
     border-radius: 3px;
     display: none;
+   
 }
 .pencil-width-cont {
     height: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .pencil-width-cont input {
     width: 80%;
@@ -79,6 +83,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    cursor: pointer;
 }
 .pencil-color {
     width: 1.5rem;
@@ -135,9 +140,11 @@ body{
  
 .minimize{
     background-color: #2ed573;
+    cursor: pointer;
 }
 .remove{
     background-color: #ff4757;
+    cursor: pointer;
 }
 
 .note-cont{
